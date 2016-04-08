@@ -3,7 +3,7 @@
 module.exports = {
     serviceName: "myService",
     serviceGroup: "My Group",
-    serviceVersion: 2,
+    serviceVersion: 1,
     requestTimeout: 30,
     requestTimeoutRenewal: 5,
     servicePort: 4111,
@@ -80,11 +80,11 @@ module.exports = {
                 }
             }
         },
-        "/test/": {
-            "_apiInfo": {
-                "l": "Test",
-                "group": "Information"
-            }
-        }
+        // "/test/": {
+        //     "_apiInfo": {
+        //         "l": "Test",
+        //         "group": "Information"
+        //     }
+        // }
     }
 };
