@@ -3,16 +3,20 @@
 module.exports = {
     serviceName: "myService",
     serviceGroup: "My Group",
-    serviceVersion: 1,
+    serviceVersion: 2,
     requestTimeout: 30,
     requestTimeoutRenewal: 5,
     servicePort: 4111,
     extKeyRequired: true,
+
+
     type: 'service',
     prerequisites: {
         cpu: '',
         memory: ''
     },
+
+
     "awareness": true,
     "errors": {
         "600": "Database error",
@@ -76,11 +80,11 @@ module.exports = {
                 }
             }
         },
-        // "/test/": {
-        //     "_apiInfo": {
-        //         "l": "Test",
-        //         "group": "Information"
-        //     }
-        // }
+        "/test/": {
+            "_apiInfo": {
+                "l": "Test",
+                "group": "Information"
+            }
+        }
     }
 };
