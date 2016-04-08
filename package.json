@@ -1,0 +1,22 @@
+{
+  "name": "deploy-demo",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soajsTestAccount/deployDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soajsTestAccount/deployDemo/issues"
+  },
+  "homepage": "https://github.com/soajsTestAccount/deployDemo#readme",
+  "peerDependencies": {
+    "soajs": "0.2.*"
+  }
+}
