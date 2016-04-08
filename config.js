@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+    //develop
     serviceName: "myService",
     serviceGroup: "My Group",
     serviceVersion: 1,
