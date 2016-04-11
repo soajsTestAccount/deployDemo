@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/soajsTestAccount/deployDemo/issues"
   },
-  "homepage": "https://github.com/soajsTestAccount/deployDemo#readme"
+  "homepage": "https://github.com/soajsTestAccount/deployDemo#readme",
+  "dependencies": {
+    "soajs": "0.2.*"
+  }
 }
