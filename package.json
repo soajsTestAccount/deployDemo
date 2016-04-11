@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/soajsTestAccount/deployDemo/issues"
   },
-  "homepage": "https://github.com/soajsTestAccount/deployDemo#readme",
-  "peerDependencies": {
-    "soajs": "0.2.*"
-  }
+  "homepage": "https://github.com/soajsTestAccount/deployDemo#readme"
 }
