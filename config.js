@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    serviceName: "myService",
+    serviceName: "myservice",
     serviceGroup: "My Group",
     serviceVersion: 2,
     requestTimeout: 30,
